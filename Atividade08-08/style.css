@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1,300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Lobster+Two:ital,wght@1.700 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Ibarra+Real+Nova & display=swap');
+@import url('https://fonts.googleapis.com/css2? família= Roboto & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cab {
+    display: flex;
+    background: #4f5557;
+    height: 130px;
+    
+
+}
+
+.logo {
+    height: 200px;
+    transform: translateY(0px);
+    animation: float 2s ease-in-out infinite;
+    position: absolute;
+    bottom: 640px;
+}
+
+.nome {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ln {
+    display: flex;
+}
+
+.no {
+    position: absolute;
+    margin: 55px 0 0 250px;
+    font-family: 'Ibarra Real Nova', serifa;
+    color: #fff;
+}
+
+.link a {
+    text-decoration: none;
+    margin: 10px;
+    position: relative;
+    top: 68px;
+    left: 1130px;
+    right: 0;
+    color: #fff;
+    transition: 0.5s;
+    
+}
+
+.link a:hover {
+    color: #00e1ff;
+    font-size: 18px;
+}
+
+
+
+.fundo {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    height: 747px;
+    background: linear-gradient(-45deg, #587f8a, #06c9ff, #0d708b) no-repeat;
+    background-size: 300% 300%;
+    animation: gradient 5s ease infinite;
+}
+
+.fundo1 {
+    position: absolute;
+    top: 300px;
+    left: 560px;
+    font-size: 28px;
+    color: #fff;
+    
+}
+
+.tdbox {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+}
+
+.tdbox h1 {
+    text-align: center;
+    
+}
+
+.tit {
+    align-items: center;
+    position: absolute;
+    left: 710px;
+    top: 1520px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+}
+.box {
+    background: black;
+    margin: 180px 30px 0 90px;
+    padding: 40px;
+    border-radius: 15px;
+    position: relative;
+    right: 30px;
+        
+}
+
+
+.box img {
+    filter: grayscale(0);
+    transform: scale(1,1);
+    transition: 1s;
+    width: 300px;
+    
+    
+}
+
+.box img:hover {
+    transform: scale(1.1,1.1);
+    filter: grayscale(100%);
+}
+
+.img1 {
+    height: 500px;
+}
+
+.img2 {
+    height: 500px;
+   
+}
+.img3 {
+    height: 300px;
+    padding-bottom: 178px;
+    margin-top: 60px;
+    
+}
+
+.no span {
+    color: aqua;
+    font-family: 'Ibarra Real Nova', sans-serif;
+}
+
+.tdbox p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre {
+    background: #4f5557;
+    height: 600px;
+    display: flex;
+    width: 100%;
+}
+
+.sobre img{
+    position: absolute;
+    top: 940px;
+    left: 40px;
+    transform: translateY(0px);
+    animation: float 2s ease-in-out infinite;
+    
+}
+
+.sobre h1{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 790px;
+    top: 950px;
+    font-family: 'Lobster Two', cursive;
+    
+}
+
+.tudoSO {
+    display: flex; 
+}
+
+.so1 p {
+    position: absolute;
+    left: 735px;
+    top: 1100px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.footer {
+   background: #4f5557;
+   display: flex;
+}
+
+.footer img {
+    height: 200px;
+    width: 310px;
+}
+
+.footer p{
+    color: #fff;
+    margin: 60px 90px 0 30px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes gradient{
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
